@@ -1,0 +1,134 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.containerIntro {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    position: relative;
+}
+
+.containerIntro>h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.containerIntro>h2>span {
+    color: hsl(230, 68%, 54%);
+}
+
+.containerIntro>p {
+    font-size: 1rem;
+}
+
+.containerIntro>div {
+    gap: 1rem;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 25px;
+    left: 105px;
+}
+
+.imgVertical {
+    position: absolute;
+    left: 210px;
+    top: 25px;
+}
+
+.imgHorizontal {
+    position: absolute;
+    left: 25pxpx;
+    top: 143px;
+}
+
+.containerForm {
+    max-width: 40%;
+    width: 368px;
+    height: 600px;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+.containerForm>h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+.boldP{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.containerForm>p {
+    font-size: 0.875rem;
+    margin-left: 1.5rem;
+}
+.containerForm>label {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+.containerForm>button {
+    box-sizing: border-box;
+    padding: 0px 16px;
+    max-width: 90%;
+    width: 321px;
+    height: 38px;
+    border-radius: 4px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.containerForm>input {
+    box-sizing: border-box;
+    padding: 0px 16px;
+    max-width: 90%;
+    width: 321px;
+    height: 38px;
+    border-radius: 4px;
+    margin-left: 1.5rem;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+.containerForm>p {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.register{
+    box-sizing: border-box;
+    padding: 0px 16px;
+    max-width: 90%;
+    width: 321px;
+    height: 38px;
+    border-radius: 4px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    background:hsl(230, 57%, 50%);
+    color: #E9ECEF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
