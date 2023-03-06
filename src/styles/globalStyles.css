@@ -19,3 +19,42 @@
 body {
   font-family: "Inter, sans-serif";
 }
+
+.containerToast{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 2rem;
+
+  box-shadow: 3px 3px 3px;
+
+  animation: toastin 2s linear;
+  z-index: 0;
+}
+.containerToast>p{
+  color: var(--gray100);
+}
+@keyframes toastIn{
+  0% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes toastOut{
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+}
+
+.toastAdd{
+
+}
